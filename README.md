@@ -1,7 +1,5 @@
 # AI Showcase
 
-Public screening page for the complete film, Version 1.
+Public page: https://ehkruse1-code.github.io/ai-showcase/
 
-https://ehkruse1-code.github.io/ai-showcase/
-
-The page plays the 4K web edition directly. The original 4K master is attached to release v1.
+The video player and hosted video downloads have been removed.
