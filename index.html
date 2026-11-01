@@ -1,6 +1,27 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI Showcase | Eric Kruse</title><meta name="description" content="Nissan AI Showcase by Eric Kruse."><meta name="theme-color" content="#000000">
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Showcase | Eric Kruse</title>
+<meta name="description" content="A customer problem. A business opportunity. Watch the complete Nissan AI Showcase film.">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="AI Showcase"><meta property="og:description" content="A customer problem. A business opportunity."><meta property="og:type" content="website"><meta property="og:image" content="https://ehkruse1-code.github.io/ai-showcase/assets/poster-v17.jpg">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<style>:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#000;color:#f7f7f5;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}header,main{width:min(1440px,calc(100% - 64px));margin:auto}header{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:28px 0 22px;border-bottom:1px solid #333}.brand{font-size:18px;font-weight:700;letter-spacing:-.04em}.byline{font-size:14px;color:#aaa}main{padding:60px 0}h1{font-size:clamp(38px,5vw,72px);line-height:1.1;letter-spacing:-.055em;font-weight:600;margin:0 0 28px}p{max-width:65ch;font-size:18px;line-height:1.6;color:#aaa}.notice{border-top:3px solid #e41937;padding-top:24px;margin-top:36px}@media(max-width:650px){header,main{width:calc(100% - 32px)}main{padding-top:38px}.byline{font-size:13px}p{font-size:16px}}</style>
-</head><body><header><span class="brand">Nissan AI Showcase</span><span class="byline">Eric Kruse</span></header><main><h1>A bigger opportunity.</h1><p class="notice">The film is not currently available on this page.</p></main></body></html>
+<style>
+:root{color-scheme:dark;--black:#000;--white:#f7f7f5;--muted:#aaa;--red:#e41937;--line:#333}*{box-sizing:border-box}body{margin:0;background:var(--black);color:var(--white);font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}main,header,footer{width:min(1440px,calc(100% - 64px));margin:auto}header{display:flex;justify-content:space-between;align-items:center;padding:28px 0 22px;border-bottom:1px solid var(--line)}.brand{font-size:18px;font-weight:700;letter-spacing:-.04em}.byline{font-size:14px;color:var(--muted)}.intro{display:flex;align-items:end;justify-content:space-between;gap:24px;padding:38px 0 26px}h1{font-size:clamp(38px,5vw,72px);line-height:1;margin:0;font-weight:600;letter-spacing:-.055em}.intro p{color:var(--muted);font-size:18px;line-height:1.5;margin:14px 0 0}.runtime{white-space:nowrap;font-size:14px;color:var(--muted);padding-bottom:4px}.screen{background:#0b0b0b;border-top:3px solid var(--red)}video{display:block;width:100%;aspect-ratio:16/9;max-height:78vh;object-fit:contain;background:#000}.controls{display:flex;flex-wrap:wrap;align-items:center;gap:12px 24px;padding:22px 0}.chapters{display:flex;flex-wrap:wrap;gap:10px}button,.download{font:inherit;font-size:14px}button{cursor:pointer;color:var(--white);background:transparent;border:1px solid #555;border-radius:5px;padding:11px 16px}button:hover{background:#242424;border-color:#aaa}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(--red);outline-offset:5px}label{display:flex;align-items:center;gap:8px;font-size:14px;color:#ccc;cursor:pointer}input{accent-color:var(--red);width:17px;height:17px}.download{margin-left:auto;color:var(--white);text-underline-offset:5px;line-height:1.6}footer{border-top:1px solid var(--line);padding:21px 0 36px;font-size:13px;color:var(--muted);display:flex;gap:20px;justify-content:space-between}footer p{margin:0;line-height:1.6}.status{color:#ddd;font-size:15px;line-height:1.6}.status:empty{display:none}@media(max-width:650px){main,header,footer{width:calc(100% - 32px)}header{padding-top:22px}.intro{display:block;padding:30px 0 24px}.intro p{font-size:16px}.runtime{margin-top:16px}.controls{gap:18px}.download{margin-left:0}footer{display:block}footer p+p{margin-top:7px}button{padding:11px 12px}.byline{font-size:13px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style></head>
+<body>
+<header><span class="brand">Nissan AI Showcase</span><span class="byline">Eric Kruse</span></header>
+<main>
+<section class="intro" aria-labelledby="title"><div><h1>A bigger opportunity.</h1><p>A customer problem sets the story in motion.</p></div><div class="runtime">Complete film &middot; 1:40 &middot; 4K</div></section>
+<div class="screen"><video id="film" controls playsinline loop muted preload="metadata" poster="assets/poster-v17.jpg" aria-label="Complete Nissan AI Showcase film"><source src="assets/showcase-v17-4k.mp4" type="video/mp4">Your browser does not support embedded video. <a href="assets/showcase-v17-4k.mp4">Open the film</a>.</video></div>
+<div class="controls"><div class="chapters" aria-label="Film chapters"><button type="button" data-time="0">Play from beginning</button><button type="button" data-time="24.958333">Jump to AI showcase</button></div><label><input id="loop" type="checkbox" checked>Loop film</label><a class="download" href="https://github.com/ehkruse1-code/ai-showcase/releases/download/v17/Nissan-AI-Showcase-Complete-v17-Loop-Fade-Silent-4K.mp4">Download full-quality 4K</a></div>
+<p id="status" class="status" role="status"></p>
+</main>
+<footer><p>Version 17</p><p>Silent film. Loop playback is on by default.</p></footer>
+<script>
+const film=document.getElementById('film'),status=document.getElementById('status');
+document.querySelectorAll('[data-time]').forEach(button=>button.addEventListener('click',async()=>{try{film.currentTime=Number(button.dataset.time);await film.play();status.textContent='';}catch{status.textContent='Press the play control on the video to begin.';}}));
+document.getElementById('loop').addEventListener('change',event=>film.loop=event.target.checked);
+film.addEventListener('error',()=>{status.textContent='The film could not load. Refresh the page, or use Download full-quality 4K.';});
+</script></body></html>
