@@ -1,3 +1,3 @@
 assets/*.mp4
-!assets/showcase-v18-4k.mp4
 assets/poster.jpg
+__pycache__/
