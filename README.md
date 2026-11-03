@@ -2,6 +2,6 @@
 
 Public page: https://ehkruse1-code.github.io/ai-showcase/
 
-Version 18: silent 4K UHD film, 24 fps, 100.375 seconds, with loop fade-in/out. The updated native 4K disassembly source uses the selected fast editorial cut under the existing titles. The page serves a web-optimized 4K copy. The download is the exact full-quality 4K master on the [v18 release](https://github.com/ehkruse1-code/ai-showcase/releases/tag/v18).
+The landing page remains online. Video playback and download links were withdrawn on November 3, 2026. The current site excludes the video; v17 and v18 release video assets were also removed.
 
-Master SHA256: `ea6110d8b1dad39b3c260717836b7d7a259b55797c97f2fce736bf8d27e57307`
+Run local checks with `python -m unittest discover -s tests`. After publication, run `python tests/check_live.py` to check the public page and retired URLs.
